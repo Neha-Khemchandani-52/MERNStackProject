@@ -11,8 +11,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start" : "node src/app.js",  //This we have added so when we run `npm run start` it will run this script command behind the scene
-    "dev" :   "nodemon src/app.js" //This we have added so when we run `npm run dev` it will run this script command behind the scene (i.e which actually automatically reflect our changes)
+    "start" : "node src/app.js",
+    "dev" :   "nodemon src/app.js"
 
   },
   "dependencies": {
