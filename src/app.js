@@ -36,7 +36,7 @@ connectDB()
 .then(() => {
     console.log("Database Connection Established!!!");
 
-    app.listen(3002, ()=>{
+    app.listen(process.env.PORT, ()=>{
         console.log("Server is listening on port 3002...");
     
     });   // listen to incoming requests .i.e created server and listening on 3002 port
